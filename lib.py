@@ -24,7 +24,7 @@ class Filters:
     __status: str | None
     __keywords: list[str]
 
-    def __init__(self, publisher: str | None = None, year_lb: int = 1918, year_ub: int = None, status: str | None = None, keywords: list[str] | None = None):
+    def __init__(self, publisher: str | None = None, year_lb: int = 1918, year_ub: int | None = None, status: str | None = None, keywords: list[str] | None = None):
         if year_ub is None:
             year_ub = datetime.datetime.now().year
         
