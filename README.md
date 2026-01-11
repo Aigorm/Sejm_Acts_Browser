@@ -24,8 +24,8 @@ A Python desktop application built with **PyQt5** that allows users to search, f
 
 1.  **Clone the repository:**
     ```bash
-    git clone <placeholder>
-    cd <placeholder>
+    git clone https://github.com/Aigorm/Sejm_Acts_Browser.git
+    cd Sejm_Acts_Browser
     ```
 
 2.  **Install dependencies:**
